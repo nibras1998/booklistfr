@@ -1,0 +1,72 @@
+.bookscontainer{
+    width: 100%;
+    position: absolute;
+    height: auto;
+    background-color: rgb(43,62,79);
+}
+#heading{
+    color: white;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+#logout{
+    right: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    width: 80px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+#addnew{
+    float: right;
+    margin-right: 350px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255,192,8);
+    border-radius: 5px;
+    border-radius: 5px;
+}
+.items{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: auto;
+}
+.item{
+    border: 1px solid black;
+    min-width: 200px;
+    max-width: 200px;
+    cursor: pointer;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    justify-content: space-between;
+    height: 300px;
+    
+   
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+}
+#title{
+    margin: 0;
+    color: rgb(17,98,198);
+}
+#author{
+    margin: 2px;
+    color: gray;
+}
+#desc{
+    margin: 2px;
+    color: white;
+}
